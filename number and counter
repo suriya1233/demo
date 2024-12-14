@@ -1,0 +1,16 @@
+
+#digit number& counter
+class Main {
+    public static void main(String[] args) {
+        int n = 454545456,count = 0;
+        while(n>0){
+            int ld =n%10;
+            count = count+1;
+            n =n/10;
+            if(n==0){
+                System.out.println(ld);
+            }
+        }
+        System.out.println(count);
+    }
+}
